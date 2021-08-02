@@ -1,0 +1,7 @@
+Linear Discriminant Analysis Model
+Number of features: 91
+Trainset: 700 mass spectra (100/class)
+Validation: 5-fold
+Number of classes: 10
+Validation Accuracy: 89.1%
+Test Accuracy: 90.0%
