@@ -1,0 +1,38 @@
+Optimized Cubic SVM - 91 features
+
+Training Results
+Accuracy (Validation)	94.1%	Total cost (Validation)	41	Prediction speed	~2600 obs/sec	Training time	514.27 sec 
+
+Test Results
+Accuracy (Test)	94.7%	Total cost (Test)	16 
+
+Model Type
+Preset: Optimizable SVM
+Kernel function: Cubic
+Kernel scale: Automatic
+
+Optimized Hyperparameters
+Box constraint level: 986.2536
+Multiclass method: One-vs-One
+Standardize data: true
+
+Hyperparameter Search Range
+Multiclass method: One-vs-All, One-vs-One
+Box constraint level: 0.001-1000
+Standardize data: true, false
+
+
+Optimizer Options
+Optimizer: Bayesian optimization
+Acquisition function: Expected improvement per second plus
+Iterations: 30
+Training time limit: false
+
+Feature Selection
+All features used in the model, before PCA
+
+PCA
+PCA disabled
+
+Misclassification Costs
+Cost matrix: default

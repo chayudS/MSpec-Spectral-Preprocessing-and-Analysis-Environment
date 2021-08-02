@@ -1,0 +1,43 @@
+SVM with Posterior Probability
+
+Training Results
+Accuracy (Validation): 93.3%
+Total cost (Validation): 57
+Prediction speed: ~8300 obs/sec
+Training time: 818.32 sec
+
+Test Results
+Accuracy (Test): 95.3%
+Total cost (Test): 7
+
+Model Type
+Preset: Optimizable SVM
+Kernel scale: 1
+
+Optimized Hyperparameters
+Kernel function: Quadratic
+Box constraint level: 990.1399
+Multiclass method: One-vs-All
+Standardize data: false
+
+Hyperparameter Search Range
+Multiclass method: One-vs-All, One-vs-One
+Box constraint level: 0.001-1000
+Kernel scale: 0.001-1000
+Kernel function: Gaussian, Linear, Quadratic, Cubic
+Standardize data: true, false
+Optimizer Options
+Optimizer: Bayesian optimization
+Acquisition function: Expected improvement per second plus
+Iterations: 30
+Training time limit: false
+
+Feature Selection
+All features used in the model, before PCA
+
+PCA
+PCA disabled
+
+Misclassification Costs
+Cost matrix: default
+
