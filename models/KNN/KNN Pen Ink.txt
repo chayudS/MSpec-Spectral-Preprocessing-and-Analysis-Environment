@@ -1,0 +1,10 @@
+KNN Model for Pen Ink Classification
+Number of features: 91
+Trainset: 700 mass spectra (100/class)
+Validation: 5-fold
+Number of classes: 10
+Number of Neighbors: 1
+Distance: Spearman
+Distance Weight: squaredinverse
+Validation Accuracy: 92.9%
+Test Accuracy: 94.3%
